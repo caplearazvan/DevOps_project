@@ -3,7 +3,7 @@
 
 ## Docker project
 
-This is a small docker file in which you''ll find basic suntax in order:
+This is a small docker file in which you'll find basic syntax in order:
 * run a Dockerfiler
 * run an image pulled from the DockerHub
 * setup the working directory
