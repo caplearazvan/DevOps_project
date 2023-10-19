@@ -9,8 +9,8 @@ This is a small docker file in which you'll find basic syntax in order:
 * setup the working directory
 ## Docker compose
 
-* command for runnign docker compose in detached mode: 
-  <code>$docker-compose up -d</code>
+* command for runnign docker compose in detached mode: <br>
+  <code>$docker-compose up -d</code> <br>
   <code>docker stack deploy --compose-file docker-stack.yaml</code> run a compose file (.yaml) containing the desired services)
 
 
