@@ -23,7 +23,7 @@ This is a small docker file in which you'll find basic syntax in order:
 
   examole yaml
   
-      ![Basic yaml example](![download](https://github.com/caplearazvan/DevOps_project/assets/82647846/7c6e6059-b3cb-496a-a30e-54a61a7becc0)
+      (![Basic yaml example](https://github.com/caplearazvan/DevOps_project/assets/82647846/7c6e6059-b3cb-496a-a30e-54a61a7becc0)
 )
 
   ### How it works
