@@ -21,7 +21,7 @@ This is a small docker file in which you'll find basic syntax in order:
   * has pluggins for cloud services (aws, azure, digitalocean)
 
 
-  examole yaml
+  example of basic yaml
   
   ![image](https://github.com/caplearazvan/DevOps_project/assets/82647846/0c0fe172-3157-416e-a224-955882eb67b4)
 
