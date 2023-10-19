@@ -17,6 +17,7 @@ This is a small docker file in which you'll find basic syntax in order:
 ### Docker stack
 * scalling aplicaton (create replicas of the application) <br>
   eg: <code>docker update --replicas=10 service_name</code>
+  
 * list the services that runs on workers: <code>$docker stack ls</code>
 
 
