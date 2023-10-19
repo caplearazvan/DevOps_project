@@ -8,6 +8,16 @@ This is a small docker file in which you'll find basic syntax in order:
 * run an image pulled from the DockerHub
 * setup the working directory
 ## Docker compose
+Docker compose file - 
+
+run locally:
+docker run simple-webapp
+docer run mongodb
+docker run redis
+
+
+
+
 
 * command for runnign docker compose in detached mode: <br>
   <code>$docker-compose up -d</code> <br>
@@ -15,6 +25,7 @@ This is a small docker file in which you'll find basic syntax in order:
 
 
 ### Docker stack
+- 
 * scalling aplicaton (create replicas of the application) <br>
   eg: <code>docker update --replicas=10 service_name</code>
   
