@@ -25,21 +25,20 @@ This is a small docker file in which you'll find basic syntax in order:
   
       ![Basic yaml example](https://github.com/caplearazvan/DevOps_project/assets/82647846/0fa97a94-edd8-4361-a775-f8ddb6ab2a9c)
 
-### How it works
+  ### How it works
 
-* a server where ansivle is installed is required
-* module - command/set of commands to send from the server to hosts to be executed (eg. the module should install a certain package
-* inventory - a file that contains info about clients servers)
-* task - the smallest unit of action that can be automate in a playbook
-* playbook - a list of tasks the are executed on a host
-* role - way of organize tasks
+    * a server where ansivle is installed is required
+    * module - command/set of commands to send from the server to hosts to be executed (eg. the module should install a certain package
+    * inventory - a file that contains info about clients servers)
+    * task - the smallest unit of action that can be automate in a playbook
+    * playbook - a list of tasks the are executed on a host
+    * role - way of organize tasks
 
-  #### Dependencies
-  * needs a ssh connection
-  * master server
-  * nodes servers
-  * install ansible on master
-  *  
+    #### Dependencies
+      * needs a ssh connection
+      * master server
+      * nodes servers
+      * install ansible on master 
 
 
 
