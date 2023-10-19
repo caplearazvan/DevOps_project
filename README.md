@@ -34,11 +34,12 @@ This is a small docker file in which you'll find basic syntax in order:
     * playbook - a list of tasks the are executed on a host
     * role - way of organize tasks
 
-    #### Dependencies
-      * needs a ssh connection
-      * master server
-      * nodes servers
-      * install ansible on master 
+  #### Dependencies
+  
+    * needs a ssh connection
+    * master server
+    * nodes servers
+    * install ansible on master 
 
 
 
