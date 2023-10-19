@@ -10,7 +10,7 @@ This is a small docker file in which you'll find basic syntax in order:
 ## Docker compose
 
 * command for runnign docker compose in detached mode:
-  <code>  $docker-compose up -d </code>.
+  <code> $docker-compose up -d </code>
 
 
   ### NGINX
