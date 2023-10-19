@@ -9,7 +9,7 @@ This is a small docker file in which you'll find basic syntax in order:
 * setup the working directory
 ## Docker compose
 
-* command for runnign docker compose in detached mode:\n
+* command for runnign docker compose in detached mode: 
   <code> $docker-compose up -d </code>
 
 
