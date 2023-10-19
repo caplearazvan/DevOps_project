@@ -15,15 +15,17 @@ This is a small docker file in which you'll find basic syntax in order:
 
 
 ### Docker stack
-* scalling aplicaton ( create replicas of the application) <br
+* scalling aplicaton (create replicas of the application) <br>
   eg: <code>docker update --replicas=10 service_name<code>
-* list the services that runs on workers: <code>$docker stack ls </code>
-
-  ### NGINX
-  NGINX is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more. It started out as a web server designed for maximum performance and stability. In addition to its HTTP server capabilities, NGINX can also function as a proxy server for email (IMAP, POP3, and SMTP) and a reverse proxy and load balancer for HTTP, TCP, and UDP servers.
+* list the services that runs on workers: <code>$docker stack ls</code>
 
 
-  ## Ansible
+### NGINX
+
+NGINX is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more. It started out as a web server designed for maximum performance and stability. In addition to its HTTP server capabilities, NGINX can also function as a proxy server for email (IMAP, POP3, and SMTP) and a reverse proxy and load balancer for HTTP, TCP, and UDP servers.
+
+
+## Ansible
   ### what is ansible?
   * confiuration management tool
   * helps configure our infrastructure
