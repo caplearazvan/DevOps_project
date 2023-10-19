@@ -23,7 +23,7 @@ This is a small docker file in which you'll find basic syntax in order:
 
   examole yaml
   
-      ![Basic yaml example](https://github.com/caplearazvan/DevOps_project/assets/82647846/0fa97a94-edd8-4361-a775-f8ddb6ab2a9c)
+      ![Basic yaml example](https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.ttgtmedia.com%2Frms%2FonlineImages%2Fitops-yaml_code_5_mobile.png&tbnid=pu1usDFShYh9hM&vet=12ahUKEwiFi-n6soKCAxV7gP0HHVMIA1kQMygLegQIARBo..i&imgrefurl=https%3A%2F%2Fwww.techtarget.com%2Fsearchitoperations%2Ftip%2FLearn-YAML-through-a-personal-example&docid=bH6gmyMOeQGX6M&w=520&h=185&q=basic%20yaml%20file&ved=2ahUKEwiFi-n6soKCAxV7gP0HHVMIA1kQMygLegQIARBo)
 
   ### How it works
 
