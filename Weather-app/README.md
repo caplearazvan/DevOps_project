@@ -20,11 +20,11 @@ Then the json format is parsed and the information needed is placed in python va
 - Build script
 - Dockerize script:
   - Create docker image->container:
-  - Dockerfile build : % docker build -t weather-app_v2 .   
-  - Docker run: docker run –name work-container  -d -p 80:80 weather-app
-  - Docker tag: % docker tag weather-app_v2:latest caplearazvan/devops:latest    
-  - Docker push: docker push caplearazvan/devops 
-  - Check if it works - Run :  Docker run caplearazvan/devops
+  - Dockerfile build : <code>$docker build -t weather-app_v2 .</code> <br> 
+  - Docker run: <code>$docker run –name work-container  -d -p 80:80 weather-app</code> <br> 
+  - Docker tag: <code>$docker tag weather-app_v2:latest caplearazvan/devops:latest </code> <br>    
+  - Docker push: <code>$docker push caplearazvan/devops</code> <br>  
+  - Check if it works - Run :  <code>$docker run caplearazvan/devops</code> <br> 
 
 
 
