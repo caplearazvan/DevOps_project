@@ -1,0 +1,9 @@
+.terraform*
+amazon-key.pem
+test*
+main_original*
+setup.sh
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfstate
+script.sh

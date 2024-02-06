@@ -1,0 +1,56 @@
+- name: Install and configure Jenkins
+  hosts: localhost
+  become: yes
+
+  tasks:
+    - name: Download Jenkins GPG key
+      get_url:
+        url: https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+        dest: /usr/share/keyrings/jenkins-keyring.asc
+
+    - name: Add Jenkins GPG key
+      apt_key:
+        file: /usr/share/keyrings/jenkins-keyring.asc
+        state: present
+
+    - name: Add Jenkins repository to sources.list.d
+      apt_repository:
+        repo: "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/"
+        state: present
+        filename: jenkins.list
+        update_cache: yes
+
+    - name: Update with latest packages
+      apt:
+        name: "*"
+        state: latest
+
+    - name: Ensure Jenkins and jre package installed
+      apt:
+        name: '{{ packages }}'
+        state: present
+      vars:
+        packages:
+          - openjdk-17-jre
+          - openjdk-17-jdk
+
+    - name: Ensure Jenkins and jre package installed
+      apt:
+        name: jenkins
+        state: present
+
+    - name: Ensure Jenkins service is enabled and started
+      service:
+        name: jenkins
+        state: started
+        enabled: yes
+
+    # - name: Ensure port 8080 allowed through UFW
+    #   ufw:
+    #     rule: allow
+    #     port: 8080
+    #     proto: tcp
+
+    # - name: Ensure UFW is enabled
+    #   ufw:
+    #     state: enabled
