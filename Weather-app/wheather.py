@@ -34,8 +34,8 @@ print("Local Temperature:", int(values[0] - Kelvin_offset), "°C")
 print("Current Time:", current_time)
 print("Location: ", values[5])
 print("Feels like: ", int(values[1] - Kelvin_offset))
-print("Min Temperature: ", int(values[3] - Kelvin_offset))
-print("Max Temperature: ", int(values[4] - Kelvin_offset))
+print("Max Temperature: ", int(values[3] - Kelvin_offset))
+print("Min Temperature: ", int(values[4] - Kelvin_offset))
 print("-----------------------")
 #time.sleep(600)  # Wait for 10 minutes before updating
 
